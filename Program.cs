@@ -13,6 +13,7 @@ namespace common_operators
             int y = 11;
             int  result = x < y ? x + y : x++;
             Console.WriteLine(result);
+            Console.WriteLine("hello world");
         }
     }
 }
